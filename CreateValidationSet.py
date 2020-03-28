@@ -18,7 +18,7 @@ for root, dirs, files in os.walk(root_dir):
                 fromfile = fromdir + '/' + file
                 tofile = todir + '/' + file
                 if os.path.isfile(fromfile) == True:
-                    #shutil.move(fromfile,tofile) Chukun run kela tar vaat lagte mhanun
+                    shutil.move(fromfile,tofile) Chukun run kela tar vaat lagte mhanun
                     print(fromfile)
                     print(tofile)
 
